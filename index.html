@@ -103,7 +103,7 @@
             // Después puedes explorar el arreglo en la variable de nombre data con un ciclo for
             for (var x = 0; x < data.length; x++) {
                 // con esto se agregan puntos en el plano por cada dato
-                L.marker([data[x].ubicacion[0], data[x].ubicacion[1]]).addTo(mymap).bindPopup(data[x].nombre).closePopup();
+                L.marker([data[x].coordenadas[0], data[x].coordenadas[1]]).addTo(mymap).bindPopup(data[x].nombre).closePopup();
                 // aprovechando el ciclo for, podemos crear otros elementos, fuera del mapa
                 // revisen el primer ejemplo en https://getbootstrap.com/docs/4.0/components/card/
                 var primero =   "<div class=\"col-sm-4 col-lg-3 my-3\">";
