@@ -111,10 +111,10 @@
                         var tercero =   "<img src=\"" + data[x].foto + "\" class=\"card-img-top\">";
                         var cuarto  =   "<div class=\"card-body\">";
                             var quinto  =   "<h5 class=\"card-title\">" + data[x].nombre + "</h5>"
-                            var sexto   =   "<p class=\"card-text\">" + data[x].fecha + " </p>";
-                            var septimo =  "<p class=\"card-text\">" + data[x].horarios + " </p>";  
-                        var octavo  =    "<p class=\"card-text\">" + data[x].precios + " </p>";          
-                    var noveno  =   "</div>";
+                            var sexto   =   "<p class=\"card-text\">" + data[x].ubicacion + " </p>";
+                            var septimo =  "<p class=\"card-text\">" + data[x].fecha + " </p>";  
+                        var octavo  =    "<p class=\"card-text\">" + data[x].horarios + " </p>";          
+                    var noveno  =   "<p class=\"card-text\">" + data[x].precios + " </p>";
                 var decimo  =   "<a href=\"" + data[x].url + "\" target=\"_blank\" class=\"btn btn-secondary btn-sm\">Compra tu entrada</a>";
                 // esto se agrega tantas veces como puntos en el mapa, porque estamos dentro del mismo ciclo for
                 $("#parques").append(primero + segundo + tercero + cuarto + quinto + sexto + septimo + octavo + noveno + decimo);
