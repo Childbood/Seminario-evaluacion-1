@@ -98,7 +98,7 @@
                 minZoom: 2,
                 maxZoom: 12,
                 
-                id: 'mapbox.satellite' //otras opciones: mapbox.satellite, mapbox.streets, mapbox.dark, mapbox.light
+                id: 'mapbox.dark' //otras opciones: mapbox.satellite, mapbox.streets, mapbox.dark, mapbox.light
             }).addTo(mymap);
             // Después puedes explorar el arreglo en la variable de nombre data con un ciclo for
             for (var x = 0; x < data.length; x++) {
@@ -112,8 +112,8 @@
                         var cuarto  =   "<div class=\"card-body\">";
                             var quinto  =   "<h5 class=\"card-title\">" + data[x].nombre + "</h5>"
                             var sexto   =   "<p class=\"card-text\">" + data[x].fecha + " </p>";
-                            var septimo =  "<p class=\"card-text\">" + data[x].precios + " </p>";
-                        var octavo  =   "<p class=\"card-text\">" + data[x].horarios + " </p>";             
+                            var septimo =  "<p class=\"card-text\">" + data[x].horarios + " </p>";  
+                        var octavo  =    "<p class=\"card-text\">" + data[x].precios + " </p>";          
                     var noveno  =   "</div>";
                 var decimo  =   "<a href=\"" + data[x].url + "\" target=\"_blank\" class=\"btn btn-secondary btn-sm\">Compra tu entrada</a>";
                 // esto se agrega tantas veces como puntos en el mapa, porque estamos dentro del mismo ciclo for
