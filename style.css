@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Anton" rel="stylesheet'); 
 
 body{
   font-family: 'Anton', sans-serif;
   font-weight: 800;
-    
   background-color: black
 }
 
 nav{
   font-family: 'Anton', sans-serif;
   font-weight: 420;
+  color:black
+}
+
+.navbar {
+    background-color:black;
+    color:black;
 }
 
 header {
@@ -19,6 +28,28 @@ header {
   width: 100%;
   overflow: hidden;
 }
+
+h1{
+ font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 100px;font-weight: 700;  
+}
+
+p1{
+    font-family: 'Anton', sans-serif;
+    color: white
+}
+
+
+p{
+font-family: 'PT Sans Narrow', sans-serif;
+  color: gray; 
+}
+
+p .card-text{
+ color: black;
+}
+
 
 header video {
   position: absolute;
@@ -47,9 +78,19 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
+  font-size: 30px;
   opacity: 0.5;
   z-index: 1;
 }
+
+div .row{
+  background-color: black;
+}
+
+.bg-light {
+  background-color: black!important;
+}
+
 
 @media (pointer: coarse) and (hover: none) {
   header {
@@ -59,3 +100,11 @@ header .overlay {
     display: none;
   }
 }
+    
+var sexto{
+  color:black;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('') black no-repeat center center scroll;
